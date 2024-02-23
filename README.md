@@ -1,6 +1,6 @@
 # Alice-AI
 
-[ English | [简体中文](README_zh.md) ]
+[ English | (README_zh.md) ]
 
 ## Introduction
 
@@ -118,7 +118,6 @@ This is a project that provides **private large language model services**, aimin
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/hcd233/Alice-AI
 cd Alice-AI
 ```
 
@@ -197,7 +196,7 @@ docker-compose -f docker/deployment/docker-compose.yml up -d --no-build
 #### Model Operation
 
 1. Call the general large model service, which currently only supports the OpenAI series models (or agents with OpenAI-like interfaces). You can access it directly in the API. You need to store information such as base, key, max_tokens in the database, and you can customize the System prompt
-2. Call the private model service, please deploy the model as an API service with an OpenAI-like API (such as [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)), and then follow the first The operation of the article can be done
+2. Call the private model service, please deploy the model as an API service with an OpenAI-like API, and then follow the first The operation of the article can be done
 
 ## Project Outlook
 
